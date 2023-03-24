@@ -2,7 +2,7 @@
 
 ### open a terminal and go to the directory:
 
-cd /mdt/daq/GLIBC_PC
+cd /mdt/daq/GLIB_PC
 
 from there you can start the gui with:
 
@@ -12,7 +12,7 @@ in the GUI Settings, set the IP address to 192.168.1.175, hit the button "GetID"
 
 In the Mezzanine Card configuration hit the button "Auto Detect", then "Init"
 
-In the Lemo Input table set the THR1 to 1500 mV and hit the button "Set".
+In the Lemo Input table set the THR1 to 1500 mV and hit the button "Set" two times (first time gives error, second time OK).
 
 ### open another terminal and go to the directory
 

@@ -62,13 +62,13 @@ The actual electronics threshold is applied to a negative signal, with the 25th 
 
 ...
 
-108 = -39 mV
+108 = -39 mV  =  25th electron
 
 ...
 
 ...
 
-116 = -55 mV
+116 = -55 mV  
 
 117 = -57 mV
 

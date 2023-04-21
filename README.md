@@ -76,6 +76,8 @@ The actual electronics threshold is applied to a negative signal, with the 25th 
 
 You can modify the threshold of a given ASD globally ( i.e. for all 24 channels ) by modifying the three values in each file ( each value is corresponding to a group of 8 channels )
 
+Always remember to re-init the readout in the GUI after you've modified the configuration files.
+
 
 
 

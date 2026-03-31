@@ -12,27 +12,23 @@ the first column is the setup value ( the one you should modify ), the second co
 
 The actual electronics threshold is applied to a negative signal, with the 25th electron corresponding to -39 mV and changing one count corresponds to a change of 2 mV. So a correspondance table ( just as an example with a few reasonable values ):
 
-98  = -59 mV
-
-99  = -57 mV
-
-101 = -55 mV
-
+99  = -55 mV
+101 = -53 mV
 ...
-
 ...
-
-108 = -39 mV  =  25th electron
-
+104 = -47 mV  ( this would be the 30th electron )
 ...
-
 ...
-
+107 = -41 mV
+108 = -39 mV  =  25th electron  ---> this is the default value for operation
+109 = -37 mV
+...
+...
+112 = -31 mV  ( this would be the value corresponding to the 20th electron )
+...
+...
 116 = -15 mV  
-
 117 = -17 mV
-
-118 = -19 mV
 
 You can modify the threshold of a given ASD globally ( i.e. for all 24 channels ) by modifying the three values in each file ( each value is corresponding to a group of 8 channels )
 
